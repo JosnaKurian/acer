@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.topleft {
+    padding: 10px;
+}
+
+.topleft svg {
+    height: 30px;
+    width: auto;
+    padding: 0 60px;
+    border-right: 1px solid gray;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.topright {
+    display: flex;
+}
+
+.topright p {
+    padding: 0 10px;
+    border-right: 1px solid gray;
+}
+
+.topright img {
+    margin: 4px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: inherit;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 0 35px;
+}
+
+.logo {
+    padding: 0 50px;
+}
+
+.second {
+    background-image: url(Images/second.jpg);
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.second h2 {
+
+    font-size: 46px;
+    margin: 16px;
+}
+
+.second p {
+    font-size: 23px;
+    margin: 16px;
+}
+
+.second .btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.third {
+    background-image: url(Images/Third.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 50px;
+    color: black;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+
+}
+
+.third h2 {
+    font-size: 45px;
+    margin: 70px 10px 10px 20px;
+}
+
+.third p {
+    font-size: 23px;
+    margin: 5px;
+    text-align: center;
+}
+
+.third .btn {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 12px 24px;
+    margin: 0px 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forth {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img {
+    margin: 20px 0;
+}
+
+.card h6 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+}
+
+.card p {
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+    font-size: 19px;
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth .poster {
+    height: 200px;
+    width: 25%;
+    font-size: 30px;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.fifth .windows {
+    background-image: url(Images/windows11.jpg);
+
+}
+
+.fifth .acer {
+    background-image: url(Images/acer_corner.jpg);
+}
+
+.fifth .intel {
+    background-image: url(Images/Intel_Extreme_Masters.jpg);
+}
+
+.fifth .rainbow {
+    background-image: url(Images/Rainbow_6_Majors.jpg);
+}
+
+.fifth h5 {
+    font-size: 25px;
+    color: white;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.footer1 {
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: white;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.footer1 h3 {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.footer1 li {
+    font-size: 12px;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.footer2 {
+    background-color: black;
+
+}
+
+.footer2 .end {
+    display: flex;
+    height: 30px;
+    width: auto;
+    padding: 30px 0;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.end svg {
+    padding: 0 20px;
+    fill: darkgray;
+}
+
+.end2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: darkgray;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.end3 {
+    text-align: center;
+    color: darkgray;
+    font-family: "Acer Foco", "Trebuchet MS", Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.a img {
+    border-radius: 50%;
+}
